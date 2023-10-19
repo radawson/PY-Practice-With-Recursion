@@ -11,5 +11,7 @@ def count_down(n):
         print(n)
         count_down(n-1)
 
-n=8
-count_down(n)
+
+if __name__ == "__main__":
+    n=8
+    count_down(n)
