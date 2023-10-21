@@ -6,6 +6,6 @@ def fibonacci(n):
     else:
         return(fibonacci(n-1)+fibonacci(n-2))
 
-n=2
+n=8
 for i in range(n):
     print(fibonacci(i))
